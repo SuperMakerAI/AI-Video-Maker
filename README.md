@@ -1,105 +1,140 @@
-SuperMaker AI Video Production Platform: An Intelligent Tool for Efficiently Generating Professional Videos
-In today's increasingly digital content creation landscape, video, as an efficient carrier of information transmission, its production efficiency and quality directly affect the communication effect. SuperMaker AI Video Production Platform (https://supermaker.ai/video/) leverages powerful AI technology to simplify complex video production processes, enabling both professional creators and beginners to quickly produce high-quality video content. Below is a detailed introduction to its core functions and advantages, along with official function demonstration videos, to help you intuitively understand its powerful capabilities.
-Core Function Highlights
-SuperMaker AI Video Production Platform focuses on "intelligent generation + flexible customization" as its core, covering the entire process from content input to finished product output, meeting video creation needs in various scenarios:
 
-Text to Video: Bring Words to "Life"
-Through advanced natural language processing technology, text content (such as product copy, teaching scripts, story fragments, etc.) is automatically converted into coherent video scenes. No need to manually design frames; AI will match appropriate materials, scenes, and animations based on text semantics, quickly generating a video draft with narrative logic.
-Applicable scenarios: Converting marketing copy to product promotion videos, novel fragments to animated short films, teaching outlines to course videos, etc.
-Image to Video: Endow Static Images with Dynamic Vitality
-Supports converting single or multiple static images (product pictures, design drafts, photos, etc.) into video sequences with transition effects and dynamic elements. AI intelligently adds camera movements, transition animations, and background ambience, making originally static images vivid and three-dimensional.
-Applicable scenarios: Converting e-commerce product images to display videos, travel photos to vlog clips, design works to dynamic demos, etc.
-Comprehensive Customization: Create Exclusive Styles
+# SuperAI — 一站式 AI 多媒体创作平台
 
-Fine adjustment of basic parameters: Supports custom video resolution (480p, 720p, 1080p), aspect ratio (21:9, 16:9, 4:3, 1:1, 3:4, 9:16, 9:21), video length (5s, 10s), and frame rate (16 FPS, 24 FPS), adapting to display needs of different platforms such as Douyin, YouTube, and Moments.
-Style and tone customization: Provides multiple preset styles (simple business, lively cartoon, technological sense, retro style, etc.), and also supports customizing color tones, fonts, and special effects to ensure the video highly matches the brand image or creation theme.
-Script and storyboard visualization: Built-in AI script assistant tool, which can generate initial scripts based on keywords; meanwhile, supports storyboard preview, allowing creators to clearly control the video rhythm and frame layout before production.
+> 文本、图片、视频、音乐、音频的创作与互转；上手简单、品质可控。  
+> 说明：本仓库用于产品介绍与使用指南，**不包含开源代码**。
 
-Professional-Grade Post-Production Tools: Enhance Video Quality with One Click
+[👉 立即体验](https://supermaker.ai)  ·  [📮 联系我们](mailto:support@supermaker.ai)
 
-Intelligent editing: Automatically removes redundant fragments, optimizes shot transitions, and also supports manual precise editing to meet personalized needs.
-Audio-visual synchronization: Integrates an AI voice generator, which can convert text into voiceovers in multiple styles (male/female/multilingual); paired with AI music recommendation, it matches appropriate background music according to video content to achieve perfect integration of audio and video.
-Automatic optimization: AI automatically completes post-processing such as color correction, image stabilization, and light adjustment, making the video present a professional-grade texture.
+---
 
-Efficient Collaboration and Asset Management
+## 目录
+- [产品简介](#产品简介)
+- [核心功能](#核心功能)
+- [界面预览](#界面预览)
+- [模型与能力](#模型与能力)
+- [典型场景与案例](#典型场景与案例)
+- [开始使用](#开始使用)
+- [竞品对比](#竞品对比)
+- [技术说明（简版）](#技术说明简版)
+- [路线图](#路线图)
+- [FAQ](#faq)
+- [声明](#声明)
 
-Unified material library management: All generated videos, images, and audio materials are automatically saved to the cloud resource library, supporting one-click reuse to reduce repeated production costs.
-Team collaboration support: Allows multiple people to edit, comment, and track versions simultaneously, facilitating division of labor among team members and improving creation efficiency.
+---
 
-Featured AI Video Generation Tools
-The platform also provides a variety of featured AI video generation tools, such as AI Twerk Video Generator, AI Pixel Video Generator, AI Air Kiss Video, AI Kitty Plane Video Generator, AI Eye Zoom, AI Muscle Generator, AI Dragon Riding Video Generation, AI Bikini Generator, etc., to meet video production needs of different creative demands and styles.
-Latest Upgrade: Veo 3 Video Production
-Veo 3 is now online, bringing high-quality video creation and perfect sound harmony. It supports HD video + native audio generation, character consistency between scenes, professional camera movements, automatic sound effects and music, etc., enhancing the professionalism and expressiveness of video production.
-Function Demonstration Videos
-Here are the official function demonstration videos, intuitively showing the core capabilities of SuperMaker AI:
+## 产品简介
+**SuperAI** 是面向创作者与团队的多模态 AI 创作平台，支持 **文本、图片、视频、音乐、音频** 五大媒介的创作与互转；提供资源追溯、二次创作与合成导出，适合短视频作者、品牌/营销、教育培训和设计团队快速生产高质量内容。
 
-<video width="width value" height="height value" controls><source src="video file address" type="video/mp4">
-Your browser does not support video playback. Please click <a href="https://static.supermaker.ai/landing/video-tab02.mp4" target="_blank">here</a> to view.</video>
+---
 
-<video width="width value" height="height value" controls><source src="video file address" type="video/mp4">
-Your browser does not support video playback. Please click <a href="https://static.supermaker.ai/landing/text-to-video.mp4" target="_blank">here</a> to view.</video>
+## 核心功能
+- **五大媒介互转（已上线）**  
+  Text / Image / Video / Audio / Music 可两两组合（如 文本→视频、图片→视频、文本→音乐…）。
+- **二次创作与合成（已上线）**  
+  对已生成内容进行参数调整、风格转换；支持将多段视频/图片/音乐合成完整作品。
+- **资源追溯与管理（已上线）**  
+  记录每个资源的来源、模型、参数与生成链路；支持筛选、收藏、项目管理。
+- **聊天式生成（已上线）**  
+  用自然语言描述需求，系统引导并生成内容（作为直达入口，底层仍调用相同的任务接口）。
+- **尺寸重构 / 口型同步（已上线）**  
+  图片/视频比例自适配；视频与配音的精准 lip-sync。
+- **工作流编排 / 资源广场 / 上下游接入（规划中 🚧）**  
+  工作流自动化、公开作品广场、接入 Google Drive/YouTube 等。
 
-<video width="width value" height="height value" controls><source src="video file address" type="video/mp4">
-Your browser does not support video playback. Please click <a href="https://static.supermaker.ai/landing/video-media03.mp4" target="_blank">here</a> to view.</video>
-Experience Now
-Visit the SuperMaker AI Video Production Platform to start an efficient video creation journey:
-👉 https://supermaker.ai/video/
-Full Coverage of Applicable Scenarios
-Whether you are an individual creator or a corporate team, you can find matching solutions in SuperMaker AI:
+> 真实性说明：**工作流编排、资源广场、上下游接入**尚未上线，本页仅做方向预告，具体时间以官网更新为准。
 
-Marketing and Advertising: Quickly produce product promotion videos and event publicity clips. Use text-to-video or image-to-video functions to efficiently generate marketing materials and reduce production costs.
-Social Media: Convert text updates or pictures into short videos suitable for sharing. With the efficient AI video generator, create eye-catching dynamic content to enhance communication effects on platforms such as Douyin, Xiaohongshu, and Bilibili.
-Education and Training: Convert courseware, knowledge points, and charts into vivid teaching videos through text-to-video or image-to-video functions, enhancing students' learning interest and memory, making learning more intuitive.
-Corporate Office: Produce corporate introductions, project reports, and data visualization videos. Use platform functions to convert report summaries or image data into professional video content, making business communication more efficient and intuitive.
-Film Creation: Assist film creators in long video creation, from AI-assisted script development and storyboard production to generating scenes using text-to-video functions, integrating complex audio and video elements, and accelerating the pre-production process.
-Personal Creation: Convert poems, diaries, travel photos, etc., into personalized videos, record life and express creativity, allowing personal stories to be presented in a more vivid form.
-User Reviews
-Many creators have highly praised the SuperMaker AI Video Production Platform:
+---
 
-Maria Rodriguez (Social Media Strategist): "SuperMaker AI Video Maker is a game-changer! Text-to-video can quickly convert copy into high-quality videos, and image-to-video can easily turn pictures into dynamic ads. My weekly video output has increased by 40%, engagement has improved, and I've abandoned complex editing software. It's a lifesaver!"
-David Chen (Small Business Owner): "SuperMaker AI Video Maker has brought amazing results to my small business! Image-to-video can create dynamic product displays, and text-to-video can quickly convert advertising copy into visual content. It has saved me money on outsourcing and allowed me to launch ads faster. It's a godsend!"
-Sophia Miller (Online Educator): "SuperMaker AI Video Maker has completely changed the way I create courses! Text-to-video makes lesson plans vivid, and image-to-video turns static charts into attractive visuals. Production time has been reduced by 50%, student engagement has significantly increased, and the courses are more appealing. The students love it!"
-James Williams (Independent Filmmaker): "SuperMaker AI Video Maker has transformed my filmmaking process! I can instantly visualize scripts through text-to-video and easily create storyboard animations through image-to-video. This efficiency has greatly accelerated pre-production. It's an essential tool for filmmakers!"
-Frequently Asked Questions
-What is SuperMaker AI Video Maker?
-SuperMaker AI Video Maker is an advanced AI-driven tool that uses a sophisticated AI video generator to convert text descriptions or static images into engaging, high-quality videos through text-to-video or image-to-video functions. It simplifies the video creation process and provides a comprehensive platform supporting film-grade production from script to final editing. For users seeking more iterative control, optional chat-based optimization features are also available. Professional videos can be produced with just a few clicks, usually without the need to log in.
+## 界面预览
 
-What types of videos can be created with the AI video production tool?
-SuperMaker AI Video Maker is versatile! With its text-to-video and image-to-video functions, supported by the AI video generator, you can create various videos:
+| 首页 | 文本转视频 | 文本转图片 |
+|------|------------|------------|
+| ![首页](./screenshots/home.png) | ![Text-to-Video](./screenshots/text-to-video.png) | ![Text-to-Image](./screenshots/text-to-image.png) |
 
-Promotional videos
-Social media content from text or images
-Explainer videos (text-to-video for scripts, image-to-video for visuals)
-Product demos (usually using image-to-video)
-Educational content
-Personal video stories
-Short films, animation series, marketing films, and more complex narratives that require scriptwriting, storyboarding, and advanced post-production, all achievable through the AI video production tool.
+| 文本转音乐 | 文本转语音 | 二次创作编辑器 |
+|------------|------------|----------------|
+| ![Music](./screenshots/music.png) | ![Voice](./screenshots/voice.png) | ![Editor](./screenshots/editor.png) |
 
-Do I need any video editing experience to use the AI video production tool?
-Not at all! The text-to-video and image-to-video functions of SuperMaker AI Video Maker are very user-friendly. The AI video generator in our AI video production tool does the heavy lifting. Although current functions are simple to use, advanced tools also focus on intuitive design, making powerful filmmaking easy to get started with. SuperMaker aims to democratize video creation.
+**演示 GIF（推荐）**  
+![演示GIF](./screenshots/demo.gif)
 
-How can SuperMaker AI Video Maker help my business or content strategy?
+> 想放“可点开的视频”：用**封面图+链接**方式（GitHub 不原生内嵌播放器）  
+> [![视频封面](./screenshots/video-cover.png)](https://supermaker.ai/demo "点击查看完整演示视频")
 
-Save time: Quickly produce videos using text-to-video or image-to-video.
-Improve engagement: Our AI video production tool, with its versatile input tools and AI video generator, helps create more attractive videos.
-Enhance storytelling: Create richer narratives through scriptwriting and storyboarding.
-Scale production: Easily create variations using the AI video production tool.
-Professional effects: Obtain a complete production solution for ambitious projects through SuperMaker AI Video Maker.
+---
 
-Is the AI video production tool free to use?
-Yes! SuperMaker offers a free plan with basic text-to-video and image-to-video functions, utilizing our AI video generator. For advanced features, you can upgrade to the premium version. The tool is easy to use and usually requires no registration.
+## 模型与能力
+- **Video**：文本/图片生成视频；分辨率与时长可控；支持尺寸重构、lip-sync。  
+- **Image**：文本生图、图生图；支持比例/尺寸与风格选择。  
+- **Music**：根据描述生成背景音乐，能与视频时长/节奏匹配。  
+- **Audio/Voice**：多语言多音色 TTS；可与视频口型对齐（lip-sync）。
 
-Can I use videos generated by the AI video production tool for commercial purposes?
-Absolutely! Videos generated with the premium plan of SuperMaker (through text-to-video or image-to-video functions of our tool) come with full commercial rights.
+> 平台会根据用户档位与任务参数在**自托管或第三方模型**之间做策略选择，以兼顾质量与成本。
 
-How long does it take to generate a video with the AI video production tool?
-The generation time of SuperMaker AI Video Maker (for text-to-video or image-to-video) depends on complexity. Our AI video generator is optimized for speed, and results are usually generated within seconds to minutes.
+---
 
-What export file formats does the AI video production tool support?
-SuperMaker allows downloading videos generated by text-to-video or image-to-video in MP4 format.
+## 典型场景与案例
+- **短视频作者**：一键生成片头/片段，自动配乐与配音，效率提升显著。  
+- **教育培训**：把课程脚本快速转成教学视频或图文课件。  
+- **品牌/营销**：生成产品动画、讲解视频、主题 KV 图等，降低外包成本。  
+- **设计/媒体团队**：多模态协作，统一素材管理与追溯，稳定复用风格。
 
-What if I'm not satisfied with the video generated by the AI video production tool?
-SuperMaker AI Video Maker provides results based on your text-to-video prompts or image-to-video inputs. You can optimize the prompts or regenerate. We are constantly improving our AI video production tool and AI video generator algorithms.
+> 案例示例：某教育博主将 5,000 字课程文案生成 10 分钟动画视频，制作效率提升 **60%**，课程完播率提升 **35%**（示意数据，用于说明产品价值，非承诺）。
 
-Does SuperMaker AI Video Maker support full film production?
-Yes, SuperMaker AI Video Maker is designed to cover the entire filmmaking process, from AI-assisted scriptwriting and storyboarding to advanced video production, editing, and integrated post-production functions such as sound design with AI Voice Maker and AI Music Maker. Our goal is to provide tools that are comparable to traditional video software but more user-friendly and AI-driven.
+---
+
+## 开始使用
+1. 访问官网：<https://supermaker.ai>  
+2. 选择模块（Video / Image / Music / Voice）  
+3. 输入文本或上传素材 → 点击「生成」  
+4. 查看预览，**支持下载或二次创作**  
+5. 登录后可在**资源中心**管理全部作品与追溯信息
+
+---
+
+## 竞品对比（客观版）
+
+| 能力/平台 | **SuperAI** | Leonardo.ai | KlingAI | InVideo AI |
+|---|---|---|---|---|
+| 媒介覆盖 | **Text/Image/Video/Audio/Music** | Image+Video | Video+Image+Audio | Video 为主 |
+| 媒介互转 | **多模态两两互转** | 部分（无音乐互转） | 部分 | 以视频链路为主 |
+| 二次创作 | **跨模态二创与合成** | 同模态微调 | 模板编辑 | 模板修改 |
+| 聊天式生成 | **已上线** | Prompt 输入 | Prompt 输入 | 脚本式 |
+| 资源追溯 | **已上线** | 素材管理 | 素材库 | 项目管理 |
+| 工作流 | 🚧 规划中 | — | 模板型 | 单模态 |
+| 社区/广场 | 🚧 规划中 | 有作品展示 | 模板库 | 模板社区 |
+| 上下游接入 | 🚧 规划中 | — | — | — |
+
+> 说明：以上为**产品形态对比**，不构成质量/价格的承诺；以各平台实际页面为准。
+
+---
+
+## 技术说明（简版）
+- **前端**：Next.js + React；表单直通调用 API；支持上传直传、预览与编辑。  
+- **后端**：NestJS 提供 REST API，配合 Redis 队列调度任务。  
+- **推理**：按策略在自托管/第三方模型间选择；生成结果统一入 S3，CDN 分发。  
+- **资源追溯**：记录输入来源、模型与参数、生成链路（便于复现与二次创作）。  
+- **聊天式入口**：可选使用 OpenAI Agent 做**意图识别/参数补全/任务拆解**，最终仍调用同一套 API。
+
+---
+
+## 路线图
+- ✅ 已上线：多模态互转、二次创作与合成、资源中心、聊天式生成、尺寸重构、lip-sync  
+- 🚧 规划中：工作流编排、资源广场、Google Drive / YouTube 接入
+
+---
+
+## FAQ
+**Q：README 可以显示图片和视频吗？**  
+A：图片/GIF 可直接显示；视频建议使用**GIF**或**封面图+外链**方式（GitHub 不原生内嵌播放器）。
+
+**Q：这个仓库开源吗？**  
+A：本仓库仅用于产品介绍与使用说明，**不包含开源代码**。
+
+---
+
+## 声明
+- 产品功能以官网线上版本为准；**规划中功能**仅为方向预告，不构成承诺。  
+- 你可以在 Issue 中反馈需求与问题，我们会持续改进。
+
