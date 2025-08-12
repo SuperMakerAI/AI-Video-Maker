@@ -1,140 +1,235 @@
+# Supermaker AI
 
-# SuperAI — 一站式 AI 多媒体创作平台
-
-> 文本、图片、视频、音乐、音频的创作与互转；上手简单、品质可控。  
-> 说明：本仓库用于产品介绍与使用指南，**不包含开源代码**。
-
-[👉 立即体验](https://supermaker.ai)  ·  [📮 联系我们](mailto:support@supermaker.ai)
+**Supermaker AI** 是面向全球内容创作者的 **多模态 AI 创作平台**。  
+由 **Chat 模式（内容创作 Agent）** 驱动，从一句话想法，自动完成 **脚本 → 图片/视频 → 配音 → 音乐 → 合成** 的成片流程。  
+目标用户：TikTok / Reels / Shorts 创作者、娱乐向短视频账号、风格多样化的二创博主（合规范围内）。
 
 ---
 
-## 目录
-- [产品简介](#产品简介)
-- [核心功能](#核心功能)
-- [界面预览](#界面预览)
-- [模型与能力](#模型与能力)
-- [典型场景与案例](#典型场景与案例)
-- [开始使用](#开始使用)
-- [竞品对比](#竞品对比)
-- [技术说明（简版）](#技术说明简版)
-- [路线图](#路线图)
-- [FAQ](#faq)
-- [声明](#声明)
+## ✨ 为什么选择 Supermaker AI？
+
+### 1) Chat 模式 = 内容创作 Agent（核心亮点）
+不是“聊天窗口”，而是你的 **虚拟创意总监 + 执行团队**：
+
+- **意图识别**：理解你的自然语言目标（如“做个 15s 竖屏 neon 风视频，带女声配音和轻快 EDM”）
+- **任务拆解**：自动拆分为可执行步骤（脚本/画面/配音/音乐/合成）
+- **智能调度**：为每步选择合适模型并确定执行顺序（质量/速度兼顾）
+- **计划卡 & 批处理**：以 **计划卡** 呈现“Overall Intent Analysis / Style & Consistency / Generation Confirmation / Select Generation Tasks / Batch Collection”
+- **记忆与复用**：记住你的偏好与近期项目，越用越懂你
+
+> 你只需给一个想法，**Agent** 负责把事办了。
+
+### 2) 一站式多模态工作台
+- **视频**：Veo 3（电影感）｜Seedance 1.0 Lite（快速产出）
+- **图片**：Text→Image / Image→Image（含尺寸/风格/批量）
+- **配音**：多音色 TTS（如 “Marie” 等）
+- **音乐**：Music Maker v4（Genre/Moods/Tempo/Lyrics 全参数）
+- **特效/模板**：一键风格化、模板同款生成
+- **资源库**：All / Image / Video / Music / Voice 分类管理，含 Active / Processing / Completed 状态
 
 ---
 
-## 产品简介
-**SuperAI** 是面向创作者与团队的多模态 AI 创作平台，支持 **文本、图片、视频、音乐、音频** 五大媒介的创作与互转；提供资源追溯、二次创作与合成导出，适合短视频作者、品牌/营销、教育培训和设计团队快速生产高质量内容。
+## 🧠 模型支持（按功能）
+
+| 功能 | 模型/版本（以 UI 为准） |
+|---|---|
+| **Chat（Agent）** | LLM + Orchestration（意图识别 → 任务拆解 → 调度 → 记忆） |
+| **Video** | **Veo 3 Video Maker**（高质）、**AI Video Maker：Seedance 1.0 Lite**（快速） |
+| **Image** | 默认 Text-to-Image / Image-to-Image（页面尺寸/风格/批量） |
+| **Voice** | 多音色 TTS（示例：Marie 等） |
+| **Music** | **AI Music Maker v4**（Genre / Moods / Voices / Tempos / Lyrics） |
+| **Effects / Templates** | 实时特效 & 模板同款（导入素材→一键风格化/套模板） |
+
+> 说明：以上名称与版本均以你提供的界面为准；如需补全具体模型名，请在上线前将本表更新为最终文案。
 
 ---
 
-## 核心功能
-- **五大媒介互转（已上线）**  
-  Text / Image / Video / Audio / Music 可两两组合（如 文本→视频、图片→视频、文本→音乐…）。
-- **二次创作与合成（已上线）**  
-  对已生成内容进行参数调整、风格转换；支持将多段视频/图片/音乐合成完整作品。
-- **资源追溯与管理（已上线）**  
-  记录每个资源的来源、模型、参数与生成链路；支持筛选、收藏、项目管理。
-- **聊天式生成（已上线）**  
-  用自然语言描述需求，系统引导并生成内容（作为直达入口，底层仍调用相同的任务接口）。
-- **尺寸重构 / 口型同步（已上线）**  
-  图片/视频比例自适配；视频与配音的精准 lip-sync。
-- **工作流编排 / 资源广场 / 上下游接入（规划中 🚧）**  
-  工作流自动化、公开作品广场、接入 Google Drive/YouTube 等。
+## 🏆 产品优势与亮点
 
-> 真实性说明：**工作流编排、资源广场、上下游接入**尚未上线，本页仅做方向预告，具体时间以官网更新为准。
+1. **从想法到成品的一键闭环**：Agent 自动完成脚本、画面、配音、音乐与合成。  
+2. **双轨视频生成（质量/速度可选）**：Veo 3 追求电影感，Seedance 1.0 Lite 用于快速量产。  
+3. **多模态协同**：视频、图片、配音、音乐同台完成，风格一致性更强。  
+4. **批量与风格多样化**：一次创建多个任务卡，做 A/B 测试与风格对比。  
+5. **模板同款生成**：选一个模板，替换素材与台词，即刻做出“同风格”的爆款高仿。  
+6. **资源追溯与复用**：生成物统一入库，支持分类筛选、下载与二次创作。  
+7. **信用点计费（Credits）透明**：不同任务对应不同消耗，便于预算管理与算力控制。  
+8. **短视频优先**：默认对 9:16 竖屏、10–15s 爆款节奏做优化；特效与封面链路顺畅。
 
 ---
 
-## 界面预览
+## 🎬 三个上手案例（含可直接复用的提示词）
 
-| 首页 | 文本转视频 | 文本转图片 |
-|------|------------|------------|
-| ![首页](./screenshots/home.png) | ![Text-to-Video](./screenshots/text-to-video.png) | ![Text-to-Image](./screenshots/text-to-image.png) |
+> 你将按下述步骤实操生成素材，并把文件放入 `./screenshots/`；README 会直接展示。  
+> 所有 Prompt **英文**编写，**合规但有张力**（Safe-for-work, spicy vibes）。
 
-| 文本转音乐 | 文本转语音 | 二次创作编辑器 |
-|------------|------------|----------------|
-| ![Music](./screenshots/music.png) | ![Voice](./screenshots/voice.png) | ![Editor](./screenshots/editor.png) |
+### 案例一｜**分步骤到成片**：图 → 视频 → 配音 → 音乐 → 合成  
+**适合**：需求明确、希望完全操控每一步的用户  
+**目标**：做一个 12–15s 的竖屏娱乐向短视频
 
-**演示 GIF（推荐）**  
-![演示GIF](./screenshots/demo.gif)
+**Step 1：Image（生成 1–3 张视觉主图）**  
+> 页面：Image → Text-to-Image（或 Image-to-Image）  
+**Prompt：**
+A photorealistic close-up portrait of a confident woman under neon lights,
+night city ambience, shallow depth of field, subtle film grain,
+color palette: magenta & cyan. Safe-for-work, playful vibe.
+Aspect ratio: 9:16, resolution: 1080x1920.
+> 
+![效果图](./screenshots/图片1.png)
 
-> 想放“可点开的视频”：用**封面图+链接**方式（GitHub 不原生内嵌播放器）  
-> [![视频封面](./screenshots/video-cover.png)](https://supermaker.ai/demo "点击查看完整演示视频")
+**Step 2：Video（I2V/或 T2V）**  
+> 页面：Video → 选择 Veo 3（高质）或 Seedance 1.0 Lite（快速）  
+**I2V Prompt（基于 Step 1 图片）**：
+Animate the provided image into a 12-second vertical video.
+Motion: subtle head tilt, glance to camera, playful half-smile.
+Style: neon cinematic, light rain reflection, soft camera shake.
+Hook in first 2 seconds; clean title card at 10s.
 
----
+markdown
+复制
+编辑
 
-## 模型与能力
-- **Video**：文本/图片生成视频；分辨率与时长可控；支持尺寸重构、lip-sync。  
-- **Image**：文本生图、图生图；支持比例/尺寸与风格选择。  
-- **Music**：根据描述生成背景音乐，能与视频时长/节奏匹配。  
-- **Audio/Voice**：多语言多音色 TTS；可与视频口型对齐（lip-sync）。
+**Step 3：Voice（TTS 配音）**  
+> 页面：Voice → 选音色（如 Marie），输入台词  
+**Script（≤ 2 句）**：
+"Miss me already?"
+"Follow for part two."
+Tone: warm, playful; pacing: 0.95x; language: English.
 
-> 平台会根据用户档位与任务参数在**自托管或第三方模型**之间做策略选择，以兼顾质量与成本。
+markdown
+复制
+编辑
 
----
+**Step 4：Music（v4 生成 BGM）**  
+> 页面：Music Maker v4  
+**Prompt：**
+Genre: EDM / Future Bass
+Mood: playful, confident
+Tempo: 110 BPM
+Structure: 12–15s loop-friendly
+Notes: keep it clean for social platforms.
 
-## 典型场景与案例
-- **短视频作者**：一键生成片头/片段，自动配乐与配音，效率提升显著。  
-- **教育培训**：把课程脚本快速转成教学视频或图文课件。  
-- **品牌/营销**：生成产品动画、讲解视频、主题 KV 图等，降低外包成本。  
-- **设计/媒体团队**：多模态协作，统一素材管理与追溯，稳定复用风格。
+markdown
+复制
+编辑
 
-> 案例示例：某教育博主将 5,000 字课程文案生成 10 分钟动画视频，制作效率提升 **60%**，课程完播率提升 **35%**（示意数据，用于说明产品价值，非承诺）。
+**Step 5：合成导出**  
+> 页面：合成/导出（将视频 + 配音 + BGM 合成）  
+结果：`final-clip-case1.mp4`（无水印/适配 9:16）
 
----
-
-## 开始使用
-1. 访问官网：<https://supermaker.ai>  
-2. 选择模块（Video / Image / Music / Voice）  
-3. 输入文本或上传素材 → 点击「生成」  
-4. 查看预览，**支持下载或二次创作**  
-5. 登录后可在**资源中心**管理全部作品与追溯信息
-
----
-
-## 竞品对比（客观版）
-
-| 能力/平台 | **SuperAI** | Leonardo.ai | KlingAI | InVideo AI |
-|---|---|---|---|---|
-| 媒介覆盖 | **Text/Image/Video/Audio/Music** | Image+Video | Video+Image+Audio | Video 为主 |
-| 媒介互转 | **多模态两两互转** | 部分（无音乐互转） | 部分 | 以视频链路为主 |
-| 二次创作 | **跨模态二创与合成** | 同模态微调 | 模板编辑 | 模板修改 |
-| 聊天式生成 | **已上线** | Prompt 输入 | Prompt 输入 | 脚本式 |
-| 资源追溯 | **已上线** | 素材管理 | 素材库 | 项目管理 |
-| 工作流 | 🚧 规划中 | — | 模板型 | 单模态 |
-| 社区/广场 | 🚧 规划中 | 有作品展示 | 模板库 | 模板社区 |
-| 上下游接入 | 🚧 规划中 | — | — | — |
-
-> 说明：以上为**产品形态对比**，不构成质量/价格的承诺；以各平台实际页面为准。
-
----
-
-## 技术说明（简版）
-- **前端**：Next.js + React；表单直通调用 API；支持上传直传、预览与编辑。  
-- **后端**：NestJS 提供 REST API，配合 Redis 队列调度任务。  
-- **推理**：按策略在自托管/第三方模型间选择；生成结果统一入 S3，CDN 分发。  
-- **资源追溯**：记录输入来源、模型与参数、生成链路（便于复现与二次创作）。  
-- **聊天式入口**：可选使用 OpenAI Agent 做**意图识别/参数补全/任务拆解**，最终仍调用同一套 API。
+**建议截图位**：  
+`./screenshots/img-gen.png`、`./screenshots/video-i2v.png`、`./screenshots/tts.png`、`./screenshots/music.png`、`./screenshots/composer.png`、`./screenshots/final-case1.png`
 
 ---
 
-## 路线图
-- ✅ 已上线：多模态互转、二次创作与合成、资源中心、聊天式生成、尺寸重构、lip-sync  
-- 🚧 规划中：工作流编排、资源广场、Google Drive / YouTube 接入
+### 案例二｜**创意视频（Chat Agent 驱动）**：一键从想法到成片  
+**适合**：不想管参数，只想“说需求 → 出片”的用户  
+**目标**：让 Agent 全自动执行“脚本→视频→配音→音乐→合成”
+
+**Chat 输入（你在 Chat 模式粘贴以下 Prompt）**：
+You are my creative production agent.
+Goal: Make a 15-second vertical TikTok video with a flirty, neon-cinematic vibe.
+Deliverables: final video with voiceover (female) and light EDM music.
+Constraints: safe-for-work; strong hook in first 2 seconds; 1080x1920; 25–30 FPS.
+Process:
+
+Generate a short script (2 lines on-screen + VO).
+
+Pick the best visual style and describe it in 1 sentence.
+
+Create a task plan with steps: T2V/I2V -> TTS -> Music -> Compose.
+
+Execute the plan automatically.
+
+Return download links and a quick “what to improve” note.
+
+markdown
+复制
+编辑
+
+**Chat Agent 在页面中的表现（对照你的截图）**  
+- **Overall Intent Analysis**：解析“15s、竖屏、neon、flirty、VO+BGM”等要点  
+- **Style & Consistency**：给出风格说明与一致性原则（色调/镜头语言/字幕位置）  
+- **Generation Confirmation**：展示步骤与参数草案  
+- **Select Generation Tasks**：生成 2–3 个风格候选任务卡（可多选批量）  
+- **Batch Collection**：批量执行 & 进度可视（Active / Processing / Completed）
+
+**最终输出**：`final-clip-case2.mp4`（以及 Agent 的改进建议）  
+
+**建议截图位**：  
+`./screenshots/chat-intent.png`、`./screenshots/chat-plan.png`、`./screenshots/chat-tasks.png`、`./screenshots/chat-progress.png`、`./screenshots/chat-final.png`
 
 ---
 
-## FAQ
-**Q：README 可以显示图片和视频吗？**  
-A：图片/GIF 可直接显示；视频建议使用**GIF**或**封面图+外链**方式（GitHub 不原生内嵌播放器）。
+### 案例三｜**模板同款生成**：一键套模板，快速做“同风格作品”  
+**适合**：要追热点、要稳定复制“某种风格/结构”的用户  
+**目标**：基于模板快速做 10s 同款短视频
 
-**Q：这个仓库开源吗？**  
-A：本仓库仅用于产品介绍与使用说明，**不包含开源代码**。
+**Step 1：选择模板**  
+> 页面：Templates（或 Video Maker 内的模板入口 / Effects 模板页）  
+示例：`Neon Tease 10s` / `Retro VHS 10s` / `Cinematic Tease 12s`
+
+**Step 2：替换元素**  
+- **封面图**：上传你的 `img-hero.png`  
+- **台词**：替换模板里的两行字幕  
+- **配音**：选择音色 + 粘贴文本  
+- **音乐**：保留模板自带或用 v4 重生成（相同时长/节奏）
+
+**Step 3：生成与导出**  
+- 一键生成同款，得到 `final-clip-case3.mp4`  
+- 如需 A/B 测试，复制此模板修改 1–2 个参数重新出片
+
+**可选 Prompt（用于模板的自定义字段）**：
+Style note: neon cinematic, playful, safe-for-work; strong glow edges;
+title font: clean sans-serif; film grain: subtle; cuts: 4–6.
+
+yaml
+复制
+编辑
+
+**建议截图位**：  
+`./screenshots/template-list.png`、`./screenshots/template-editor.png`、`./screenshots/template-final.png`
+
+> 亮点补充到其他模块：  
+> - 在 **视频/图片/配音/音乐** 功能说明中标注“支持基于模板快速生成同款”，  
+> - 在 **优势** 中加入“模板化量产能力 + A/B 快速实验”。
 
 ---
 
-## 声明
-- 产品功能以官网线上版本为准；**规划中功能**仅为方向预告，不构成承诺。  
-- 你可以在 Issue 中反馈需求与问题，我们会持续改进。
+## 🧭 快速开始（带截图位）
 
+1. **打开 Chat 模式** → 输入你的创意或粘贴上述案例 Prompt  
+   ![Chat](./screenshots/chat.png)
+
+2. **查看计划卡**（意图分析 / 风格 / 任务确认 / 任务卡）  
+   ![Plan](./screenshots/chat-plan.png)
+
+3. **执行任务（批量可选）→ 进度追踪**  
+   ![Progress](./screenshots/chat-progress.png)
+
+4. **下载成品或继续二次创作（特效/模板/配音替换）**  
+   ![Result](./screenshots/chat-final.png)
+
+---
+
+## 💳 价格与计费（Credits）
+
+- 按任务类型消耗信用点，清晰可控  
+- 付费档支持 **无水印下载**  
+- 具体档位以官网定价页为准  
+![Pricing](./screenshots/price.png)
+
+---
+
+## ✅ 小贴士（安全与平台友好）
+
+- 支持“合规但有张力”的娱乐/挑逗风格：**Safe-for-Work**，避免露骨表达  
+- 建议用 **风格/氛围/光影/镜头** 来增强吸引力，而非敏感元素  
+- 封面与时长建议：**9:16，10–15s，前 2s 强钩子**，字幕行不宜过多
+
+---
+
+## ▶️ 开始创作
+👉 访问官网并登录：**https://supermaker.ai/**  
+👉 打开 **Chat 模式**，用以上三个案例的 Prompt 直接试一遍。
+
+---
