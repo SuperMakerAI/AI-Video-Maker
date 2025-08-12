@@ -73,7 +73,8 @@ A photorealistic close-up portrait of a confident woman under neon lights,
 night city ambience, shallow depth of field, subtle film grain,
 color palette: magenta & cyan. Safe-for-work, playful vibe.
 Aspect ratio: 9:16, resolution: 1080x1920.
-> 
+
+![效果图](./screenshots/prompt1.png)
 ![效果图](./screenshots/图片1.png)
 
 **Step 2：Video（I2V/或 T2V）**  
