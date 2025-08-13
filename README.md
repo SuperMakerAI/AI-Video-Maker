@@ -84,11 +84,10 @@ SuperMaker AI automatically selects and combines the best engines for your needs
    Prompt: *Turn the image into a 5-second video, slight camera push-in, rain animation, lens flare, keep color grading, 1080x1920 resolution.*
    
   Prompt Input Screen：  
-  ![Video Thumbnail](./screenshots/videoprompt.png)  
-
+  ![Video Thumbnail](./screenshots/vedioprompt.png)  
   Generated Output (MP4)：  
-  [▶ Watch Video](./screenshots/video.mp4)
-
+  [![Watch Video](./screenshots/vedioprompt.png)](https://github.com/SuperMakerAI/AI-Video-Maker/raw/main/screenshots/vedio.mp4)
+  
 4. **Voiceover & Music**
    Voice Prompt: *Soft mysterious female voice: “In the city of neon dreams, every step tells a story…”*
    Audio Prompt: *Cinematic ambient music, slow tempo, deep bass, cyberpunk night vibe, 15 seconds.*
