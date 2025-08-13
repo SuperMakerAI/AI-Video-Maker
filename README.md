@@ -85,8 +85,17 @@ SuperMaker AI automatically selects and combines the best engines for your needs
    
   Prompt Input Screen：  
   ![Video Thumbnail](./screenshots/vedioprompt.png)  
-  Generated Output (MP4)：  
-  [![Watch Video](./screenshots/vedioprompt.png)](https://github.com/SuperMakerAI/AI-Video-Maker/raw/main/screenshots/vedio.mp4)
+  
+  Generated Output (MP4)：
+https://github.com/user-attachments/assets/40206740-12f0-4157-809c-0c035b8fcf75
+
+
+ 
+
+
+
+
+
   
 4. **Voiceover & Music**
    Voice Prompt: *Soft mysterious female voice: “In the city of neon dreams, every step tells a story…”*
@@ -122,7 +131,12 @@ Assistant Workflow:
 2. **Replace Assets**
    Prompt: *Replace the main model with a smiling woman in a red dress walking on a Paris street, Eiffel Tower in the background, cinematic bokeh.*
 3. **Output**: Auto-match music, transitions, captions to keep the same pacing & style
-   🎥 [Watch Template Output](https://example.com/final3)
+   
+     Prompt Input Screen：
+    ![Image Output](./screenshots/dosameprompt.png)
+   
+    Generated Output ：
+    ![Image Output](./screenshots/image.png)
 
 ---
 
