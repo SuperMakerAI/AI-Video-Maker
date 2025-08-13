@@ -87,8 +87,7 @@ SuperMaker AI automatically selects and combines the best engines for your needs
   ![Video Thumbnail](./screenshots/vedioprompt.png)  
   
   Generated Output (MP4)：
-https://github.com/user-attachments/assets/40206740-12f0-4157-809c-0c035b8fcf75
-
+  https://github.com/user-attachments/assets/8650d6e0-d37a-491b-a5ee-851b8c65fbaf
 
  
 
