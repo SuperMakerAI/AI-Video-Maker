@@ -70,7 +70,10 @@ SuperMaker AI automatically selects and combines the best engines for your needs
 **Goal**: Produce a high-quality vertical cinematic short with unified visuals and sound
 
 1. **Image Generation**
-   Prompt: *Hyper-realistic cinematic portrait, mysterious woman walking in neon cyberpunk street, rain reflections, shallow depth of field, teal + magenta color grading, 8K detail, 9:16 portrait.*
+   
+   Prompt:
+
+    *Hyper-realistic cinematic portrait, mysterious woman walking in neon cyberpunk street, rain reflections, shallow depth of field, teal + magenta color grading, 8K detail, 9:16 portrait.*
    
      Prompt Input Screen：
    
@@ -79,38 +82,50 @@ SuperMaker AI automatically selects and combines the best engines for your needs
     Generated Output ：
    
     ![Image Output](./screenshots/image.png)
+   
 
 2. **Video Generation**
-   Prompt: *Turn the image into a 5-second video, slight camera push-in, rain animation, lens flare, keep color grading, 1080x1920 resolution.*
    
-  Prompt Input Screen：  
-  
-  ![Video Thumbnail](./screenshots/vedioprompt.png)  
-  
-  Generated Output (MP4)：
+   Prompt:
 
-  https://github.com/user-attachments/assets/2b9d264d-532e-4499-a582-f2f85664fafa
+    *Turn the image into a 5-second video, slight camera push-in, rain animation, lens flare, keep color grading, 1080x1920 resolution.*
+   
+   Prompt Input Screen：  
+  
+    ![Video Thumbnail](./screenshots/vedioprompt.png)  
+  
+   Generated Output (MP4)：
+
+    https://github.com/user-attachments/assets/2b9d264d-532e-4499-a582-f2f85664fafa
 
 
   
 3. **Voiceover & Music**
-   Voice Prompt: *In a world that moves too fast, sometimes we forget the little things   the way the city lights dance on a rainy night,
-   the sound of laughter shared between friends,   or the warmth in someone's eyes when they say your name.
-   Tonight, let's slow down, breathe in the moment,   and let our stories unfold… one heartbeat at a time.”*
+   
+   Voice Prompt:
+
+    *In a world that moves too fast, sometimes we forget the little things   the way the city lights dance on a rainy night,
+    the sound of laughter shared between friends,   or the warmth in someone's eyes when they say your name.
+    Tonight, let's slow down, breathe in the moment,   and let our stories unfold… one heartbeat at a time.”*
    
    ![voice Prompt](./screenshots/voiceprompt.png)
    
 
-   [download Voice](./screenshots/voice.mp4)
+   download Voice：
    
-   music Prompt: *cinematic ambient slow tempo deep bass airy synths male vocals ambient deep slow*
+   https://raw.githubusercontent.com/SuperMakerAI/AI-Video-Maker/main/screenshots/voice.mp4
+   
+   
+   music Prompt:
+
+   *cinematic ambient slow tempo deep bass airy synths male vocals ambient deep slow*
 
    ![music Prompt](./screenshots/musicprompt.png)
    
 
-   [download Music](./screenshots/music.wav)
- 
+   download Music：
    
+   https://raw.githubusercontent.com/SuperMakerAI/AI-Video-Maker/main/screenshots/music.wav
 
 ---
 
@@ -120,7 +135,9 @@ SuperMaker AI automatically selects and combines the best engines for your needs
 
 **Goal**: Use AI Chat to fully automate a 15-second vertical video with a romantic and flirtatious atmosphere  
 
-User Input: *Make a 15-second vertical video with a romantic and flirtatious atmosphere, featuring close-up shots, soft lighting, whispered voiceover, and gentle background music.*
+User Input: 
+
+*Make a 15-second vertical video with a romantic and flirtatious atmosphere, featuring close-up shots, soft lighting, whispered voiceover, and gentle background music.*
 
 Assistant Workflow:
 
@@ -132,7 +149,7 @@ Assistant Workflow:
    
      ![Image Output](./screenshots/chat1prompt-1.png)
    
- 
+
    
 2. **Task Breakdown**: Script → Scene Images → Video Assembly → Audio → Final Edit
    
