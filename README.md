@@ -1,8 +1,6 @@
-
-
 # SuperMaker AI — Next-Generation Visual Storytelling Assistant
 
-![Hero Banner](./screenshots/img-hero.png)
+![Hero Banner](./screenshots/home.png)
 
 **SuperMaker AI** is an all-in-one creative assistant that transforms your ideas into stunning **images, videos, voiceovers, and music**—all in one place. Whether you’re a content creator, social media influencer, or marketing professional, SuperMaker AI helps you complete the entire workflow from **concept → assets → final product** in just minutes.
 
@@ -75,50 +73,82 @@ SuperMaker AI automatically selects and combines the best engines for your needs
    Prompt: *Hyper-realistic cinematic portrait, mysterious woman walking in neon cyberpunk street, rain reflections, shallow depth of field, teal + magenta color grading, 8K detail, 9:16 portrait.*
    
      Prompt Input Screen：
+   
     ![Image Output](./screenshots/imgeprompt.png)
    
     Generated Output ：
+   
     ![Image Output](./screenshots/image.png)
 
-3. **Video Generation**
+2. **Video Generation**
    Prompt: *Turn the image into a 5-second video, slight camera push-in, rain animation, lens flare, keep color grading, 1080x1920 resolution.*
    
   Prompt Input Screen：  
+  
   ![Video Thumbnail](./screenshots/vedioprompt.png)  
   
   Generated Output (MP4)：
-  https://github.com/user-attachments/assets/8650d6e0-d37a-491b-a5ee-851b8c65fbaf
 
- 
-
-
-
+  https://github.com/user-attachments/assets/2b9d264d-532e-4499-a582-f2f85664fafa
 
 
   
-4. **Voiceover & Music**
-   Voice Prompt: *Soft mysterious female voice: “In the city of neon dreams, every step tells a story…”*
-   Audio Prompt: *Cinematic ambient music, slow tempo, deep bass, cyberpunk night vibe, 15 seconds.*
-   🎧 [Listen to Audio](https://example.com/audio1)
+3. **Voiceover & Music**
+   Voice Prompt: *In a world that moves too fast, sometimes we forget the little things   the way the city lights dance on a rainy night,
+   the sound of laughter shared between friends,   or the warmth in someone's eyes when they say your name.
+   Tonight, let's slow down, breathe in the moment,   and let our stories unfold… one heartbeat at a time.”*
+   
+   ![voice Prompt](./screenshots/voiceprompt.png)
+   
 
-5. **Final Assembly**
-   🎥 [Watch Final MP4](https://example.com/final1)
+   [download Voice](./screenshots/voice.mp4)
+   
+   music Prompt: *cinematic ambient slow tempo deep bass airy synths male vocals ambient deep slow*
+
+   ![music Prompt](./screenshots/musicprompt.png)
+   
+
+   [download Music](./screenshots/music.wav)
+ 
+   
 
 ---
 
+
+
 ### **Scenario 2 — AI Assistant-Driven Video**
 
-**Goal**: Use AI Chat to fully automate a 20-second inspirational vertical video for entrepreneurs
+**Goal**: Use AI Chat to fully automate a 15-second vertical video with a romantic and flirtatious atmosphere  
 
-User Input: *Make a 20-second vertical inspirational short video for entrepreneurs, featuring cinematic scenes, motivational voiceover, and passionate background music.*
+User Input: *Make a 15-second vertical video with a romantic and flirtatious atmosphere, featuring close-up shots, soft lighting, whispered voiceover, and gentle background music.*
 
 Assistant Workflow:
 
-1. **Intent Recognition**: Lock onto “motivation + entrepreneurship” theme
+
+  ![Image Output](./screenshots/chat1prompt.png)
+  
+
+1. **Intent Recognition**: Lock onto the “romantic + flirtatious” theme
+   
+     ![Image Output](./screenshots/chat1prompt-1.png)
+   
+ 
+   
 2. **Task Breakdown**: Script → Scene Images → Video Assembly → Audio → Final Edit
-3. **Model Collaboration**: Auto-select optimal models to ensure style consistency
+   
+    ![Image Output](./screenshots/chat1prompt-2.png)
+   
+     ![Image Output](./screenshots/chat1promt-3.png)
+
+     
+   
+3. **Model Collaboration**: Auto-select optimal models to ensure consistency in mood, lighting, and pacing
+
+     ![Image Output](./screenshots/chat1prompt-4.png)
+   
 4. **Output**:
-   🎥 [Watch Final Video](https://example.com/final2)
+   
+   https://github.com/user-attachments/assets/f5cdcf44-e241-44f4-8621-99b2bf5265ce
 
 ---
 
@@ -135,7 +165,9 @@ Assistant Workflow:
     ![Image Output](./screenshots/dosameprompt.png)
    
     Generated Output ：
-    ![Image Output](./screenshots/image.png)
+     
+   https://github.com/user-attachments/assets/a373e217-eff7-4adf-9246-0fe7bcd4d282
+
 
 ---
 
@@ -174,10 +206,3 @@ Our starting point is a powerful AI Chat, but our ultimate goal is an **AI Multi
 3. Create, preview, and export your final product
 
 > **SuperMaker AI — Turn ideas into content instantly**
-
-
-
-
-
-
-
