@@ -73,18 +73,28 @@ SuperMaker AI automatically selects and combines the best engines for your needs
 
 1. **Image Generation**
    Prompt: *Hyper-realistic cinematic portrait, mysterious woman walking in neon cyberpunk street, rain reflections, shallow depth of field, teal + magenta color grading, 8K detail, 9:16 portrait.*
-   ![Image Output](./screenshots/image.png)
+   
+     Prompt Input Screen：
+    ![Image Output](./screenshots/imgeprompt.png)
+   
+    Generated Output ：
+    ![Image Output](./screenshots/image.png)
 
-2. **Video Generation**
+3. **Video Generation**
    Prompt: *Turn the image into a 5-second video, slight camera push-in, rain animation, lens flare, keep color grading, 1080x1920 resolution.*
-   🎥 [Watch Video](https://example.com/video1)
+   
+  Prompt Input Screen：  
+  ![Video Thumbnail](./screenshots/videoprompt.png)  
 
-3. **Voiceover & Music**
+  Generated Output (MP4)：  
+  [▶ Watch Video](./screenshots/video.mp4)
+
+4. **Voiceover & Music**
    Voice Prompt: *Soft mysterious female voice: “In the city of neon dreams, every step tells a story…”*
    Audio Prompt: *Cinematic ambient music, slow tempo, deep bass, cyberpunk night vibe, 15 seconds.*
    🎧 [Listen to Audio](https://example.com/audio1)
 
-4. **Final Assembly**
+5. **Final Assembly**
    🎥 [Watch Final MP4](https://example.com/final1)
 
 ---
